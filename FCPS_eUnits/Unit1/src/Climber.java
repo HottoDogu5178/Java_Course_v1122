@@ -12,39 +12,39 @@ import edu.fcps.karel2.Robot;
          super(x, 1, Display.NORTH,1);
       }
       public void climbUpRight(){
+      turnLeft();
          move();
          move();
          turnRight();
          move();
-         turnLeft();
+         
      
      
      } 
      public void climbUpLeft(){
+     turnRight();
          move();
          move();
          turnLeft();
          move();
-         turnRight();
+         
      
      
      } 
      public void climbDownLeft(){
-         turnLeft();
          move();
          turnLeft();
          move();
          move();
-         turnAround();     
+         turnRight();     
      
      } 
      public void climbDownRight(){
-         turnRight();
          move();
          turnRight();
          move();
          move();
-         turnAround();     
+         turnLeft();     
      
      } 
 

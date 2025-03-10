@@ -17,6 +17,8 @@ public class Lab04 {
       public static void main(String[] args) {
 		Display.openWorld("../maps/arena.map");
       Display.setSize(10,10);
+               Display.setSpeed(10);
+
 		Athlete coach = new Athlete(2,7,Display.EAST,0);
       Athlete p1 = new Athlete();
       Athlete p2 = new Athlete();

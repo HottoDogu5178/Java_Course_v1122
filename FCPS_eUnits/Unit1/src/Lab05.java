@@ -7,7 +7,7 @@ public class Lab05 {
       public static void main(String[] args) {
 		Display.openWorld("../maps/shuttle.map");
       Display.setSize(10,10);
-      Display.setSpeed(9);
+      Display.setSpeed(10);
       Racer lisa = new Racer(1);
       Racer lisa1 = new Racer(4);
       Racer lisa2 = new Racer(7);

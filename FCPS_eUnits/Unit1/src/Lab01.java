@@ -7,6 +7,8 @@ public class Lab01 {
 	
 	public static void main(String[] args) {
 		Display.openWorld("../maps/school.map");
+               Display.setSpeed(10);
+
 		Robot a = new Robot();
       Robot b = new Robot(4,5,3,0);
       a.move();
