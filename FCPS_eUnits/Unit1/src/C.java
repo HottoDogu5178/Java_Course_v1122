@@ -4,10 +4,10 @@
    import edu.fcps.karel2.Robot;
    import edu.fcps.karel2.Display;
    import edu.fcps.Digit;
-    public class Three extends Digit  implements Runnable, Workable  {
+    public class C extends Digit implements Runnable, Workable   {
       
 
-       public Three(int x, int y)
+       public C(int x, int y)
       {
          super(x, y);
       }
@@ -56,7 +56,7 @@
        segment4_On();
        segment5_Off();
        segment6_Off();
-       segment7_On();
+       segment7_Off();
 
             }
 
@@ -69,7 +69,7 @@
        segment4_On();
        segment5_Off();
        segment6_Off();
-       segment7_On();
+       segment7_Off();
 
        }
           }
