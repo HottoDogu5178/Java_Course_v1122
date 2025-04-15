@@ -1,3 +1,4 @@
+package Lab06;
 	//Name______________________________ Date_____________
    import edu.fcps.Turtle;
    import java.awt.Color;
@@ -19,12 +20,20 @@
          smidge.setColor(Color.BLUE);
          smidge.setThickness(6);
          smidge.drawShape();
+         SquareTurtle smidg = new SquareTurtle(100,100,45,70);
+         smidg.setColor(Color.RED);
+         smidg.setThickness(8);
+         smidg.drawShape();
+SquareTurtle smid = new SquareTurtle(100);
+         smid.setColor(Color.BLACK);
+         smid.setThickness(3);
+         smid.drawShape();
+      for(int i=0;i<5;i++){
+      SquareTurtle smi = new SquareTurtle(400,250,45,i*30);
+         smi.setColor(Color.YELLOW);
+         smi.setThickness(i);
+         smi.drawShape();
       
-         /************************/
-      	/*                      */
-      	/* Your code goes here. */
-      	/*                      */
-      	/************************/
-      
+      }
       }
    }
