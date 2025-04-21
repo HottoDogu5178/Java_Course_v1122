@@ -1,3 +1,4 @@
+package Lab07;
 	//Name______________________________ Date_____________
    import edu.fcps.Turtle;
     public class PolygonTurtle extends Turtle
@@ -31,8 +32,10 @@
       }
        public void drawShape()
       {
-      
-         /************************/
+      for (int i = 0; i< mySides; i++){
+      forward(mySize);
+        turnLeft(360 / mySides);}
+                 /************************/
       	/*                      */
       	/* Your code goes here. */
       	/*                      */

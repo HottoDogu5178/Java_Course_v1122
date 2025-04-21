@@ -1,4 +1,5 @@
-	//Name______________________________ Date_____________
+	package Lab07;
+   //Name______________________________ Date_____________
    import edu.fcps.Turtle;
    import java.awt.Color;
    import javax.swing.*;
@@ -17,7 +18,22 @@
          smidge.setColor(Color.BLUE);
          smidge.setThickness(6);
          smidge.drawShape();
+      PolygonTurtle smidg = new PolygonTurtle(100.0, 4);
+         smidg.setColor(Color.BLUE);
+         smidg.setThickness(6);
+         smidg.drawShape();
       
+PolygonTurtle smid = new PolygonTurtle(100.0, 5);
+         smid.setColor(Color.BLUE);
+         smid.setThickness(6);
+         smid.drawShape();
+      
+PolygonTurtle smi = new PolygonTurtle(100.0, 6);
+         smi.setColor(Color.BLUE);
+         smi.setThickness(6);
+         smi.drawShape();
+      
+
          /************************/
       	/*                      */
       	/* Your code goes here. */

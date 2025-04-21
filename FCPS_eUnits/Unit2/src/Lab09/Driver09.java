@@ -1,9 +1,9 @@
-package Lab08;
+package Lab09;
 	//Name______________________________ Date_____________
    import edu.fcps.Turtle;
    import java.awt.Color;
    import javax.swing.*;
-   public class Driver08
+   public class Driver09
    {
       public static void main(String[] args)
       {
@@ -13,12 +13,20 @@ package Lab08;
          frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
          frame.setContentPane(new TurtlePanel());
          frame.setVisible(true);
-         Turtle.clear(Color.WHITE);
+         //Turtle.clear(Color.WHITE);
 
-FlowerTurtle smidge = new FlowerTurtle(200.0, 30.0, Color.BLUE);
-         //smidge.setColor(Color.BLUE);
+TwistyTurtle smidge = new TwistyTurtle();
+         smidge.setColor(Color.BLUE);
          smidge.setThickness(3);
          smidge.drawShape();
+         TwistyTurtle2 smidg = new TwistyTurtle2();
+         smidg.setColor(Color.RED);
+         smidg.setThickness(3);
+         smidg.drawShape();
+         TwistyTurtle3 smid = new TwistyTurtle3();
+         smid.setColor(Color.YELLOW);
+         smid.setThickness(3);
+         smid.drawShape();
       	/************************/
       	/*                      */
       	/* Your code goes here. */
