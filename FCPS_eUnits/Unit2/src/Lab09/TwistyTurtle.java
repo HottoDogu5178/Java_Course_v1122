@@ -1,23 +1,35 @@
-package Lab09;
 	//Name______________________________ Date_____________
    import edu.fcps.Turtle;
-   import java.awt.Color;
-   public class TwistyTurtle extends Turtle
+    public class twistyTurtle extends Turtle
    {
-   public TwistyTurtle()
+      private int Blength;
+      private int Elength;
+      private int angle = 123;
+      private int incre = 10;
+      
+      public twistyTurtle()
       {
          super();
+         Blength = 10;
+         Elength = 400;
       }
-   public void drawShape()
+      public twistyTurtle(int b, int e)
       {
-      for (int i = 5; i< 400; i+=10){
-      forward(i);
-        turnLeft(123);}
-                 /************************/
-      	/*                      */
-      	/* Your code goes here. */
-      	/*                      */
-      	/************************/
-      
+         Blength = b;
+         Elength = e;
+      }
+      public twistyTurtle(double x, double y, double h, int b, int e)
+      {
+         super(x, y, h);
+         Blength = b;
+         Elength = e;
+      }
+      public void drawShape()
+      {
+         for(int i = Blength;i < Elength; i += incre)
+         {
+            forward(i);
+            turnRight(angle);
+         }
       }
    }

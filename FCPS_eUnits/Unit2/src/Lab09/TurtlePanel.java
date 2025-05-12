@@ -1,4 +1,3 @@
-package Lab09;
 	//Torbert, e-mail: mr@torbert.com, website: www.mr.torbert.com
 	//version 6.17.2003
 
@@ -10,14 +9,12 @@ package Lab09;
    {
       public TurtlePanel()
       {
-      
          Timer t = new Timer(10, new Listener());
          t.start();
       }
       public void paintComponent(Graphics g)
       {
          g.drawImage(Turtle.getImage(), 0, 0, getWidth(), getHeight(), null);
-         
       }
       private class Listener implements ActionListener
       {
